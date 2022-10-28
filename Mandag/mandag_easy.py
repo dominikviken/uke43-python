@@ -55,6 +55,6 @@ prime_tall = [1, 3, 2, 5, 8, 49, 0, 15, 212, 13, 176, 21, 7, 29, 20, 14]
 def oppgave5():
     for x in prime_tall:
         if (x % 2) != 0: 
-            print(str(x) + ' er et oddetall')
+            print(str(x) + ' er ikke et primtall')
             
 oppgave5()
